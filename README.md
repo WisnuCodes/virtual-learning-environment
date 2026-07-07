@@ -3,14 +3,12 @@
 ![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
-![Xendit](https://img.shields.io/badge/Payment-Xendit-blue?style=for-the-badge)
 
 A comprehensive, enterprise-grade Online Learning System built with Laravel. This platform provides a seamless experience for both instructors to manage courses and students to learn interactively.
 
 ## ✨ Features
 
 - **📚 Course Management:** Easy creation, editing, and management of courses and lessons.
-- **💳 Integrated Payment Gateway:** Automated enrollment and payment verification using Xendit & Midtrans API.
 - **🧑‍🏫 Multi-role System:** Dedicated dashboards for Admin, Instructors, and Students.
 - **📝 Assessments & Quizzes:** Built-in quiz system with automated grading.
 - **💬 Interactive Forums:** Discussion boards for students and instructors.
@@ -21,7 +19,6 @@ A comprehensive, enterprise-grade Online Learning System built with Laravel. Thi
 - **Backend:** Laravel (PHP)
 - **Frontend:** Laravel Blade, HTML, CSS, JavaScript
 - **Database:** MySQL
-- **Payments:** Xendit / Midtrans
 
 ## 🛠️ Installation & Setup
 
@@ -49,7 +46,7 @@ Follow these steps to set up the project locally:
    cp .env.example .env
    php artisan key:generate
    ```
-   *Configure your database and payment gateway (Xendit/Midtrans) credentials in the `.env` file.*
+   *Configure your database credentials in the `.env` file.*
 
 5. **Run Migrations & Seeders**
    ```bash
